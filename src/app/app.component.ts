@@ -11,6 +11,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   styleUrls: ['./app.component.scss'],
 })
 export class App {
+
+  placeholder = 'placeholder'
   quillConfig = {
     toolbar: [
       ['bold', 'italic', 'underline', 'strike'], // toggled buttons
